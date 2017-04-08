@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.container p {
+  text-align: center;
+}
+
+.recent-searches,
+.search-results ol {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 25%;
+}
+
+.recent-searches ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-searches p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.recent-searches p {
+  text-align: left;
+}
+
+.search-results ol {
+  padding-left: 20px;
+  width: 75%;
+}
+
+.search-results ol li {
+  padding-bottom: 10px;
+}
+
+#search-word,
+#search-delete {
+  display: inline-block;
+}
+
+#search-word button,
+#search-delete button {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+#search-word button {
+  border-bottom: 1px dotted black;
+}
+
+#search-delete button {
+  color: #c83a3a;
+  font-size: small;
+}
