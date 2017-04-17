@@ -1,0 +1,6 @@
+export default {
+  'app_id': '',
+  'app_key': '',
+  'session_secret': '',
+  'mongo_url': ''
+}
