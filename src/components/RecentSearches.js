@@ -1,9 +1,6 @@
 import React from 'react';
 
-class RecentSearches extends React.Component {
-  render() {
-    const { searches, onSearchClick } = this.props;
-
+function RecentSearches({ searches, onSearchClick }) {
     return (
       <div className="recent-searches">
         <p>Recent Searches</p>
@@ -26,7 +23,6 @@ class RecentSearches extends React.Component {
         </ul>
       </div>
     );
-  }
 }
 
 export default RecentSearches;

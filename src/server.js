@@ -27,7 +27,7 @@ server.use(session({
   resave: false,
   saveUninitialized: false,
   store: new MongoStore({ url: process.env.MONGO_URL || config.mongo_url }),
-  cookie: {path: '/', httpOnly: true, secure: false, maxAge: 1000 * 60 * 60 * 24}
+  cookie: {path: '/', httpOnly: true, secure: false, maxAge: 1000 * 60 * 60 * 24 * 30}
 }));
 server.use(methodOverride('_method'));
 
